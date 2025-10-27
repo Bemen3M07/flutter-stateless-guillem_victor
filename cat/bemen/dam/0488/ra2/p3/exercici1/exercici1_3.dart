@@ -19,11 +19,10 @@ class MainApp extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text('This is a resource string'),
-                SizedBox(height: 16), // espacio entre texto e imagen
                 Image(
                   image: AssetImage('imagen.png'),
-                  width: 200,
-                  height: 200,
+                  width: 150,
+                  height: 100,
                 ),
               ],
             ),
