@@ -28,11 +28,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // 5) MaterialApp ya no puede ser const porque depende de `contact`.
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-            title: const Text('Contacto')), // texto const porque es estático
+            title: const Text('Contacto')),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -42,12 +41,11 @@ class MainApp extends StatelessWidget {
                 backgroundImage: AssetImage('assets/imagen.png'),
               ),
               const SizedBox(height: 20),
-              // 6) Mostramos los atributos del Contact con interpolación.
               Text('${contact.fullName}',
                   style: const TextStyle(
                       fontSize: 30, fontWeight: FontWeight.bold)),
               FractionallySizedBox(
-                widthFactor: 0.3, // ocupa el 30% del ancho disponible
+                widthFactor: 0.3,
                 child: Card(
                   elevation: 4,
                   shape: RoundedRectangleBorder(

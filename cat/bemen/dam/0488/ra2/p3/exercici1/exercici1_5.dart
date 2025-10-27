@@ -76,7 +76,7 @@ class MessagePage extends StatelessWidget {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {}, // Por ahora sin funcionalidad
+        onPressed: () {},
         child: const Icon(Icons.add),
       ),
     );
