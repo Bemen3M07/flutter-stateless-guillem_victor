@@ -11,8 +11,23 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World 3!'),
+        body: Padding(
+          padding: EdgeInsets.all(16.0),
+          child: Align(
+            alignment: Alignment.topLeft,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('This is a resource string'),
+                SizedBox(height: 16), // espacio entre texto e imagen
+                Image(
+                  image: AssetImage('imagen.png'),
+                  width: 200,
+                  height: 200,
+                ),
+              ],
+            ),
+          ),
         ),
       ),
     );
