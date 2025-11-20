@@ -26,3 +26,42 @@ El código comienza definiendo un modelo simple Message para almacenar autor y c
 // Exercici 1.6 App bar
 
 Es el mismo código que el anterior, pero incluyendo debajo un bottomNavigationBar con 3 elementos: Uno de "Mensajes", uno de "Contactos", y uno de "Ajustes". Cada uno con surespectivo icono.
+
+//Exercici 2.1
+
+
+En esta aplicación hemos creado una interfaz sencilla que muestra un mensaje inicial “Good ?!” y permite modificarlo mediante dos botones. Implementamos un StatefulWidget para poder gestionar cambios en pantalla y utilizamos dos funciones que actualizan el estado con setState, de manera que al pulsar Morning el mensaje pasa a ser “Good morning” y al pulsar Night se convierte en “Good night”. Con esta aplicación mostramos cómo gestionamos el estado y la interacción del usuario dentro de Flutter.
+
+
+//Exercici 2.2
+
+En esta aplicación hemos creado un sencillo contador interactivo que nos permite incrementar y decrementar un valor mostrado en pantalla. A través de una interfaz limpia y funcional, podemos ver cómo el número cambia al pulsar los botones correspondientes, lo que nos brinda una experiencia dinámica e intuitiva. Con este ejercicio, hemos podido poner en práctica conceptos fundamentales de Flutter, como la gestión del estado, el uso de widgets como Text y ElevatedButton, y la construcción de una interfaz organizada con Column y Padding. La aplicación, aunque sencilla, nos permite entender de manera práctica cómo interactuar con la lógica interna y reflejar cambios en la interfaz de usuario en tiempo real.
+
+
+
+
+//Exercici 2.3
+
+En esta aplicación hemos desarrollado un contador de clics más avanzado que nos permite llevar un registro tanto del total acumulado como de los clics parciales desde la última vez que se reinició. A través de una interfaz sencilla, podemos pulsar el botón “CLICK” para incrementar ambos contadores y observar cómo se actualizan en tiempo real, o usar el botón “RESET” para reiniciar únicamente el contador parcial. Con este ejercicio hemos podido experimentar con la gestión de múltiples variables de estado y reforzar nuestra comprensión sobre cómo reflejar cambios de manera inmediata en la interfaz, creando una experiencia interactiva y clara para el usuario.
+
+
+//Exercici 2.4
+
+
+En esta aplicación hemos creado un simulador de dados interactivo que nos permite tirar dos dados y observar los resultados de manera visual y divertida. Cada vez que pulsamos el botón “ROLL THE DICE”, los dados se actualizan aleatoriamente y podemos ver cómo cambian las imágenes correspondientes. Además, hemos añadido un detalle especial: si ambos dados muestran un seis, aparece un mensaje de “JACKPOT!”, lo que añade un toque de emoción al juego. Con este ejercicio hemos practicado la manipulación de imágenes, el uso de la generación aleatoria y la gestión del estado en Flutter, creando una experiencia dinámica y atractiva para el usuario.
+
+
+//Exercici 2.5
+
+En esta aplicación hemos desarrollado una interfaz que nos permite manejar dos contadores independientes de manera simultánea. Cada contador tiene su propio botón, y al pulsarlo podemos ver cómo el número asociado se incrementa en tiempo real, lo que nos permite llevar un registro de dos puntuaciones distintas al mismo tiempo. Este ejercicio nos ha ayudado a profundizar en la gestión de múltiples estados dentro de un mismo widget, a organizar la interfaz utilizando Row y Column, y a crear una experiencia interactiva clara y sencilla para el usuario, donde cada acción produce un cambio inmediato en la pantalla.
+
+//Exercici 2.6
+
+En esta aplicación hemos creado una lista de la compra interactiva que nos permite agregar productos junto con su cantidad y gestionarlos de manera sencilla. Cada vez que introducimos un producto y su cantidad, podemos añadirlo a la lista y visualizarlo inmediatamente, mientras que también tenemos la opción de eliminar cualquier elemento que ya no necesitemos. Con este ejercicio hemos practicado la manipulación de listas, la gestión del estado en Flutter y el uso de formularios con TextField, logrando una experiencia clara y funcional que simula de manera práctica cómo organizar y controlar nuestros productos de manera eficiente.
+
+//Exercici 2.7
+
+En esta aplicación hemos implementado un contador utilizando el patrón de gestión de estado con Provider, lo que nos permite mantener y actualizar el estado de manera centralizada y reactiva. Al integrar ChangeNotifierProvider, conseguimos que cualquier cambio en el contador se refleje automáticamente en la interfaz, sin necesidad de pasar datos manualmente entre widgets. Con este ejercicio hemos profundizado en arquitecturas más escalables dentro de Flutter, entendiendo cómo separar la lógica de negocio de la interfaz y creando una experiencia consistente y organizada para el usuario.
+
+//Exercici 2.8
+
